@@ -28,7 +28,9 @@ function App() {
     <UserContext.Provider value={[loggedInUser , setLoggedInUser]}>
       <BrowserRouter>
         <Routes>
-        <Route path="/" element={<BodyArea></BodyArea>}></Route>
+        <Route path="/">
+          <BodyArea/>
+        </Route>
         <Route path="/home" element={<BodyArea />}/>
         <Route path="/RegEvent" element={<RegEvent />}/>
         <Route path="/register" element={<Login/>}/>

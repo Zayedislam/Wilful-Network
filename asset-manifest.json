@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Wilful-Network/static/css/main.31962fb3.css",
+    "main.js": "/Wilful-Network/static/js/main.eb062b15.js",
+    "index.html": "/Wilful-Network/index.html",
+    "main.31962fb3.css.map": "/Wilful-Network/static/css/main.31962fb3.css.map",
+    "main.eb062b15.js.map": "/Wilful-Network/static/js/main.eb062b15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31962fb3.css",
+    "static/js/main.eb062b15.js"
+  ]
+}

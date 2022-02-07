@@ -32,13 +32,11 @@ function App() {
         <Route path="/home" element={<BodyArea />}/>
         <Route path="/RegEvent" element={<RegEvent />}/>
         <Route path="/register" element={<Login/>}/>
-
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/events" element={<RegEvent />}/>
         <Route path="/donation" element={<Donation />}/>
         <Route path="/admin" element={<Admin/>}/>
         <Route path="/addevent" element={<AddEvent/>}/>
-        <Route path="*" element={<NotFound/>}/>
 
 
         </Routes>

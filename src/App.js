@@ -10,7 +10,7 @@ import Blog from './Components/Blog/Blog';
 import BodyArea from './Components/BodyArea/BodyArea';
 import Donation from './Components/Donation/Donation';
 import Login from './Components/Login/Login';
-import NotFound from './Components/NotFound/NotFound';
+//import NotFound from './Components/NotFound/NotFound';
 import RegEvent from './Components/RegEvent/RegEvent';
 
 
@@ -28,7 +28,7 @@ function App() {
     <UserContext.Provider value={[loggedInUser , setLoggedInUser]}>
       <BrowserRouter>
         <Routes>
-        <Route path="/" element={<BodyArea />}/>
+        <Route path="/" element={<BodyArea/>}/>
         <Route path="/home" element={<BodyArea />}/>
         <Route path="/RegEvent" element={<RegEvent />}/>
         <Route path="/register" element={<Login/>}/>
